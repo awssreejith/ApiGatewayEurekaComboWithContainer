@@ -1,0 +1,28 @@
+version: '3'
+services:
+  discovery-service:
+    image: awssreejith/discovery-service:latest
+    ports:
+      - 8761:8761
+  apigateway:
+    image: awssreejith/apigateway:latest
+    depends_on:
+      - discovery-service
+    ports:
+      - 8080:8080
+  reciever-service:
+    image: awssreejith/reciever-service:latest
+    depends_on:
+      - discovery-service
+      - apigateway
+    ports:
+      - "38000"
+    container_name: reciever-service  
+  sender-service:
+    image: awssreejith/sender-service:latest
+    depends_on:
+      - discovery-service
+      - apigateway
+    ports:
+      - "37000"      
+    container_name: sender-service

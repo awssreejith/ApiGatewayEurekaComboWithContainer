@@ -1,0 +1,12 @@
+
+Awesome article in making services as containers and running using docker compose.
+
+https://developer.okta.com/blog/2019/02/28/spring-microservices-docker
+
+To install docker compose
+
+sudo apt  install docker-compose 
+
+Run docker compose as below
+
+sudo docker-compose up -d
