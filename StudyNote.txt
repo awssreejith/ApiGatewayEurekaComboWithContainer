@@ -6,6 +6,9 @@ https://developer.okta.com/blog/2019/02/28/spring-microservices-docker
 Article related to how to configure jenkins/github/maven and deploy build on docker through kubernetes
 https://github.com/yankils/Simple-DevOps-Project/
 
+Article related to how to add webhook in github which will trigger jenkins to trigger build during git push/commit
+https://www.edureka.co/community/49753/auto-build-job-jenkins-there-change-code-github-repository#:~:text=To%20specify%20which%20project%20builds,hook%20trigger%20for%20GITScm%20Polling'.&text=Save%20your%20project.
+
 
 To install docker compose
 
