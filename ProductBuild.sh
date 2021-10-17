@@ -8,7 +8,8 @@ do
         b) dockerbuild=${OPTARG};;
     esac
 done
-mvn clean install -Dmaven.test.skip=true
+## mvn clean install -Dmaven.test.skip=true
+mvn clean install package
 echo "SenderReciever product Build start"
 
 ## give a 5 seconds sleep for all maven threads to exit
