@@ -10,7 +10,7 @@ This contains the below 4 services
 
 - The Api gateway, Sender and reciever service will register with Eureka server.
 - The sender and reciever service will be using dynamic port
-- The api gateway and eureka will be using static port [8080 and 8761 repectively]
+- The api gateway and eureka will be using static port [9080 and 8761 repectively]
 - Each service has associated Dockerfile
 - The orchestration is done using docker-compose
 
