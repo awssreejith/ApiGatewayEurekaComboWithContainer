@@ -1,6 +1,6 @@
 #!/bin/bash
 
-##Lets run build with test so that any bean failure can be found out during compile time itslf
+##Lets run build with test so that any bean failure can be found out during compile time itself
 
 while getopts u:b:f: flag
 do
