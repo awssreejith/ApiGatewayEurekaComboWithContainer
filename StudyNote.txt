@@ -3,6 +3,10 @@ Awesome article in making services as containers and running using docker compos
 
 https://developer.okta.com/blog/2019/02/28/spring-microservices-docker
 
+Article related to how to configure jenkins/github/maven and deploy build on docker through kubernetes
+https://github.com/yankils/Simple-DevOps-Project/
+
+
 To install docker compose
 
 sudo apt  install docker-compose 
