@@ -10,7 +10,7 @@ do
 done
 ## mvn clean install -Dmaven.test.skip=true
 mvn clean install package
-echo "SenderReciever product Build start"
+echo "SenderReciever product Build started"
 
 ## give a 5 seconds sleep for all maven threads to exit
 echo "Build complete...Sleeping for 5 seconds"
